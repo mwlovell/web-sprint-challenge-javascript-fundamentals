@@ -73,18 +73,43 @@ const zooAnimals = [
   //   console.log(item.city);
   //   console.log(item.state);
   // });
-   
+//   const shirtOrderOne = [];
 
-  function animalNames(CB){
-    // let newArray =[]
+// runners.forEach(function(item){
+//   shirtOrderOne.push(`${item.last_name}, ${item.shirt_size}`);
+// });
+
+// console.log(shirtOrderOne);
+
+// arrow function 
+
+// runners.forEach(item => shirtOrderOne.push(`${item.last_name}, ${item.shirt_size}`));
+
+// console.log(shirtOrderOne);
+   
+// array1.forEach(element => console.log(element));
+
+  function animalNames(){
+    var displayNames = zooAnimals.forEach(name => console.log(animal_name))
+      
+    return `${this.animal_name},  ${this.scientific_name}`
+    // animalNames.forEach(name => console.log(animal_name));
+    // animalNames.forEach(scientific => console.log(scientific_name));
+    // // const displayNames = [];{
+    // displayNames.push(`name: ${this.animal_name},  scientific:${this.scientific_name}`);}
+    // // let newArray =[]
     // newArray = zooAnimals.forEach(function(item){
     //   return{
     //   name: item.animal_name, 
-    //   scientific: item.scientific_name
-      
+    // //   scientific: item.scientific_name
+    // return displayNames; 
     // }
-
-  }
+      // return displayNames
+      
+    };
+    
+  
+  
   // function lowerCaseNames(zooAnimals){
   //   let newArray = []
     
