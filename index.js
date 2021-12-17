@@ -58,15 +58,76 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(zooAnimals){
-    return zooAnimals.forEach(function(item){
-      console.log(item.animal_name);
-      console.log(item.scientific_name);
-    });
+  // array.forEach(function(item){
+  //   // do something here
+  //   //example return item.key;
+  //   });
 
+  // function soccerGame(scorecb){
+  //   return {
+  //     Home: scorecb(),
+  //     Away: scorecb()
+  //   }
+  // //  }
+  // cityData.forEach(function(item){
+  //   console.log(item.city);
+  //   console.log(item.state);
+  // });
+   
+
+  function animalNames(CB){
+    // let newArray =[]
+    // newArray = zooAnimals.forEach(function(item){
+    //   return{
+    //   name: item.animal_name, 
+    //   scientific: item.scientific_name
+      
+    // }
 
   }
-  console.log(animalNames(zooAnimals));
+  // function lowerCaseNames(zooAnimals){
+  //   let newArray = []
+    
+  //   newArray = zooAnimals.map(item => item.animal_name.toLowerCase());
+    
+  //   return newArray
+  // }
+  // console.log(lowerCaseNames(zooAnimals))
+  
+  // console.log(animalNames(zooAnimals))
+
+
+  // function animalNames(animalNameCB, scientificNameCB){
+  //   // console.log(`scorecb: ${scorecb}`);
+  //   // console.log(`gamecb: ${gamecb}`);
+  //   // create an empty array to push our scores to 
+  //   const displayNames = [];
+  //   // then I would create 2 variables - 1 to store my home score inside of, and 1 to store my away score inside of - we want to add to score for each period 
+  //   let homeScore = 0;
+  //   // console.log(`HomeScore ${homeScore}`);
+  //   let awayScore = 0;
+  //   // console.log(`AwayScore ${awayScore}`);
+    
+    
+    
+  //   for(let i = 0; i < animalNames.length; i++){
+
+  //     const currentScore = AnimalNameCB(scorecb); 
+  //     homeScore = homeScore + currentScore.Home;
+   
+  //     awayScore = awayScore + currentScore.Away;
+      
+  //     totalScore.push(`Peroid ${i + 1} Away: ${awayScore} - Home: ${homeScore}`);
+  //   }
+   
+  //   return totalScore;  
+  // }
+  
+  // console.log(totalGameScore(score, soccerGame));
+
+
+
+
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
   The zoo needs a list of all their animal's names converted to lower case. 
@@ -121,12 +182,13 @@ console.log(lowPopulationAnimals(zooAnimals))
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
 
-   function consume(a, b, cb) {
-    function cb(a, b){
-      return cb(a,b);
+   function consume(cb, a, b) {
+    // function cb(a, b){
+      // return cb(a,b);
     }
-  }
+  
  
+   
   
   /* 🦁🦁🦁 Step 2: Create several functions to callback with consume(); 🦁🦁🦁 */
  // 🦁🦁🦁 Use add to return the sum of two numbers 🦁🦁🦁
