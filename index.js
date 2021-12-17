@@ -182,13 +182,7 @@ console.log(lowPopulationAnimals(zooAnimals))
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
 
-   function consume(cb, a, b) {
-    // function cb(a, b){
-      // return cb(a,b);
-    }
-  
- 
-   
+  const consume = (a, b, operatorcb) => operatorcb(a, b);
   
   /* 🦁🦁🦁 Step 2: Create several functions to callback with consume(); 🦁🦁🦁 */
  // 🦁🦁🦁 Use add to return the sum of two numbers 🦁🦁🦁
