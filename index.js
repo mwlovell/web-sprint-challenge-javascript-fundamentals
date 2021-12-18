@@ -90,9 +90,10 @@ const zooAnimals = [
 // array1.forEach(element => console.log(element));
 
   function animalNames(){
-    var displayNames = zooAnimals.forEach(name => console.log(animal_name))
+    const displayNames = []
+    zooAnimals.forEach(name => console.log(this.animal_name))
       
-    return `${this.animal_name},  ${this.scientific_name}`
+    // return `${this.animal_name},  ${this.scientific_name}`
     // animalNames.forEach(name => console.log(animal_name));
     // animalNames.forEach(scientific => console.log(scientific_name));
     // // const displayNames = [];{
@@ -104,7 +105,7 @@ const zooAnimals = [
     // //   scientific: item.scientific_name
     // return displayNames; 
     // }
-      // return displayNames
+      return displayNames
       
     };
     
